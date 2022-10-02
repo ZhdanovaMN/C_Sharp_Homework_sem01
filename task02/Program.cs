@@ -6,8 +6,6 @@ Console.Write("Введите второе число: ");
 string userInput2 = Console.ReadLine() ?? "";
 int b = int.Parse(userInput2);
 
-int max = a;
-
 if (a > b)
 {
     Console.Write("a = " + a + ", b = " + b + " -> max = ");

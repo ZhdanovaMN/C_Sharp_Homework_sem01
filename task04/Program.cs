@@ -11,9 +11,9 @@ string userInput3 = Console.ReadLine() ?? "";
 int c = int.Parse(userInput3);
 
 int max = a;
-if(a > max) max = a;
-if(b > max) max = b;
-if(c > max) max = c;
+if (a > max) max = a;
+if (b > max) max = b;
+if (c > max) max = c;
 
 Console.Write(a + ", " + b + ", " + c + " -> ");
 Console.WriteLine(max);
